@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Telegram sale's Bot, "AI" assistant  and  Excel files processing program with GUI.<br>🌱 I’m currently learning how to SQL and other basic things of Python.
+🔭 I’m currently working on "AI" assistant, Excel files processing program with GUI and Telegram sale's Bot.<br>🌱 I’m currently learning how to SQL and other basic things of Python.
 
 
 ## 🌐 Socials:

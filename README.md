@@ -1,37 +1,46 @@
-# 👨‍💻 Junior Python Developer
+# 👨‍💻 Python Developer
 
-I'm a Junior Python Developer with a strong background (10+ years) in analytics, process automation, and project management. Passionate about applying my problem-solving skills to backend development, I'm actively building projects to transition my career into the tech industry.
-
----
-
-### 🚀 Projects
-
-Here are some of my key projects, demonstrating my skills in automation, backend development, and data analysis.
-
-#### **Subota — AI Voice Assistant**
-- **Tech Stack:** Python, OpenCV, YOLOv8, aiogram, SileroTTS, llama.cpp
-- **Description:** A voice-controlled AI assistant with computer vision capabilities. It can detect humans, motion, and dangerous situations (e.g., a person with a weapon). Features include voice-controlled mathematical operations, integrations with a Telegram bot and email notifications, and an optimized voice output system.
-
-#### **File_checker — Corporate Excel Parser**
-- **Tech Stack:** Python, pandas, openpyxl, PyQt5
-- **Description:** A GUI application developed for a client to automate Excel file processing. It automatically divides order canvases into tabs, generates up to 36 region-specific price lists, and assigns customs codes (UKTZD) to invoices. The project is compiled into a `.exe` file for easy use by end-users.
-
-#### **OSBB_maintense — Housing & Communal Services Accounting System**
-- **Tech Stack:** FastAPI, SQLAlchemy, Argon2, Fernet, PyQt6
-- **Description:** An accounting system with a FastAPI backend, designed to handle user authorization and data management with encrypted credentials. The client-side GUI is developed with PyQt6. The system is optimized for free hosting and will be integrated with a Telegram bot for meter readings and receipts.
+I'm a Python Developer with a strong background (10+ years) in analytics, process automation, and project management. Passionate about applying my problem-solving skills to backend development, I'm actively building projects to transition my career into the tech industry.
 
 ---
 
-### ⚙️ My Tech Stack
+### 💡 Flagship Project: System Architecture & Reliability
+
+This project demonstrates my highest-level skills in system design, asynchronous programming, and engineering maturity.
+
+#### **Subota — Asynchronous Event-Driven Digital Butler** *[Project Link](https://github.com/Karlsonte/Subota-Multifunctional-Assistant/tree/main)*
+- **Architecture:** **Asynchronous EDA** (FastAPI/asyncio, Redis Event Bus), PostgreSQL/Alembic, RBAC.
+- **Key Skills Demonstrated:**
+    1.  **Architectural Design:** Transitioned the project from a synchronous monolith to a scalable, **Event-Driven Architecture (EDA)** core, using Redis as the central communication bus.
+    2.  **System Reliability:** Implemented **Health Checkers**, a **Task Watcher** for process monitoring, **Graceful Shutdown** sequences, and over **40 Pytest tests** (Unit & Integration).
+    3.  **Complex Integration:** Unified multi-channel I/O (Voice, Telegram, Web UI) and managed integrations with Computer Vision (YOLOv8) and LLM frameworks.
+    4.  **Security & DevOps:** Designed **Role-Based Access Control (RBAC)**, implemented JWT authentication, and scripted Docker/PostgreSQL backup/restore procedures.
+
+---
+
+### ⚙️ Other Notable Projects
+
+These projects demonstrate proficiency across the full development lifecycle, including GUI design and data processing.
+
+#### **File\_checker — Corporate Excel Parser (GUI Automation)**
+- **Tech Stack:** Python, `pandas`, `openpyxl`, `PyQt5`.
+- **Description:** A GUI application designed for corporate clients to automate complex Excel processing. It handles the parsing of order canvases, automatically generates up to 36 region-specific price lists, and assigns customs codes (UKTZD) to invoices. Delivered as a compiled `.exe` for end-user deployment.
+
+#### **OSBB\_maintense — Accounting System Backend**
+- **Tech Stack:** `FastAPI` (Backend), `SQLAlchemy`, `Argon2`, `Fernet`, `PyQt6` (Client GUI).
+- **Description:** A full-stack accounting system for communal services. The FastAPI backend manages data via SQLAlchemy, featuring secure user authorization with **Argon2** password hashing and **Fernet** encryption for sensitive data. Designed for integration with external services (Telegram bot) for automated meter readings.
+
+---
+### 🛠️ Core Tech Stack
 
 | Category | Skills |
 | :--- | :--- |
-| **Languages** | `Python` `SQL` |
-| **Frameworks** | `FastAPI` |
-| **Libraries** | `pandas` `numpy` `openpyxl` `requests` `sklearn` |
-| **ML/AI** | `OpenCV` `YOLOv8` `SileroTTS` `llama.cpp` `spaCy` |
-| **GUI** | `PyQt5` `PyQt6` |
-| **Tools** | `Git/GitHub` `Docker` `Linux` `REST API` |
+| **Backend Core** | `Python` `Asyncio` `FastAPI` `REST API` |
+| **Architecture** | **Event-Driven Design (EDA)** `Redis` (Event Bus/Cache) `Docker` |
+| **Data & Persistence** | `SQL` `PostgreSQL` `SQLAlchemy` `Alembic` |
+| **Testing & Reliability** | `Pytest` `Unit Testing` `Integration Testing` `Health Checks` |
+| **Data & ML** | `pandas` `numpy` `OpenCV` `YOLOv8` `llama.cpp` `sklearn` |
+| **GUI & Tools** | `PyQt5 / PyQt6` `Git/GitHub` `Linux` |
 
 ---
 
